@@ -1,0 +1,63 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Design Example</title>
+    <link rel="stylesheet" href="button2.css" />
+  </head>
+  <body background="C:\Users\ratho\OneDrive\Pictures\zmmm.jpg">
+    <nav>
+      <div class="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-tip">
+      <a href="#" class="latest">
+       WELCOME TO OUR SHOP</a>
+    </div>
+    <main>
+      <section>
+        <h2>Finding Your perfect Shoes</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet
+          beatae illo fuga cupiditate suscipit, animi quasi
+        </p>
+        <button>Shop Now</button>
+      </section>
+      <section id="img-section">
+      <!--<img
+          src=
+          "C:\Users\ratho\OneDrive\Pictures\zzz.jpg"
+          alt="Responsive Design Example"
+          loading="lazy"-->
+       
+      </section>
+    </main>
+    <footer>
+      
+      <div>&copy;Website...
+   
+    </div> 
+    </footer>
+    <script>
+      document.querySelector(".menu-toggle").addEventListener("click", function () {
+          const menu = document.querySelector(".menu");
+          menu.classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
